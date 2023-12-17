@@ -1,0 +1,62 @@
+.detailAll {
+  color: white;
+  width: 100vw;
+  height: 30vw;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.flexDetail {
+  margin-top: 2%;
+  margin-right: auto;
+  width: 90%;
+  margin-left: 5%;
+}
+.detailAll h2 {
+  font-size: 0, 5rem;
+  border-bottom: 2px solid white;
+  padding-bottom: 3%;
+}
+.youTube {
+  width: 95%;
+  height: 95%;
+  margin-top: 5%;
+}
+.imgDetail {
+  width: 95%;
+  margin-top: 5%;
+}
+.flexDetail button:last-child {
+  margin-left: 3%;
+}
+.btn-detail {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 1%;
+}
+.btn-detail:hover,
+.btn-detail:active {
+  color: yellow;
+}
+.errDetail {
+  display: block;
+}
+.btnX {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+.videoImg {
+  height: 100%;
+}
+.imgDetail {
+  height: 90%;
+  margin-top: 5%;
+  width: cover;
+}

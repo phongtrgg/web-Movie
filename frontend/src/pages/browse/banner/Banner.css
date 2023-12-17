@@ -1,0 +1,49 @@
+.banner {
+  color: white;
+  width: 100vw;
+  height: 30vw;
+  margin-bottom: 15%;
+}
+.imgBanner {
+  width: 100vw;
+  height: 40vw;
+}
+.contenBanner {
+  color: white;
+  position: absolute;
+  top: 16%;
+  left: 1%;
+  font-weight: 700;
+  width: 30%;
+}
+.titleBanner {
+  font-size: 2.2rem;
+  margin-bottom: 2%;
+  width: 100%;
+}
+.contenBanner p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  width: 100%;
+  overflow: auto;
+}
+.contenBanner button {
+  background-color: transparent;
+  color: white;
+  padding: 0.8%;
+  border: 1px solid #474646;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+.btnBanner-2 {
+  margin-left: 4%;
+  padding-right: 2.5% !important;
+  padding-left: 2.5% !important;
+}
+.btnBanner-1 {
+  padding-left: 2.5% !important;
+  padding-right: 2.5% !important;
+}
+.btnBanner:hover {
+  transform: scale(1.2);
+}

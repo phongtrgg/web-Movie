@@ -1,0 +1,59 @@
+.nav {
+  width: 100vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+}
+.navBlack {
+  background-color: black;
+}
+.nav button {
+  border: none;
+  background-color: transparent;
+  color: red;
+  font-size: 1.5rem;
+  padding: 1%;
+}
+.icon {
+  width: 2.5%;
+  padding: 1% 3% 1% 1%;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+.test {
+  height: 2000px;
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 3rem;
+}
+.titleNav {
+  font-size: 2rem !important;
+  margin-left: 0.5%;
+}
+.titleNav:hover {
+  transform: scale(1.2);
+}
+/* ///////////////////////////////////////////////////////////// */
+.navSearch {
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 100vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: start;
+  position: fixed;
+  z-index: 999;
+  color: white;
+}
+.navSearch a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 5%;
+}
+.active {
+  color: yellow !important;
+}

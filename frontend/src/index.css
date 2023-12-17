@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.error {
+  color: red;
+  text-align: center;
+}
+
+/* media-code */
+@media only screen and (max-width: 2220px) {
+  .titleBanner {
+    margin-top: 40%;
+    font-size: 3.5rem !important;
+  }
+  .banner p {
+    line-height: 2.2rem !important;
+  }
+  .btnBanner {
+    font-size: 1.5rem !important;
+  }
+  .btnBanner-2 {
+    margin-left: 3% !important;
+    padding: 1% 10% 1% 10% !important;
+  }
+  .btnBanner-1 {
+    padding: 1% 12% 1% 12% !important;
+  }
+  .detailAll {
+    height: 60% !important;
+  }
+  .youTube {
+    height: 95% !important;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .banner p {
+    line-height: 1.5rem !important;
+  }
+  .titleBanner {
+    margin-top: 35%;
+    font-size: 3.5rem !important;
+  }
+  .detailAll {
+    height: 55% !important;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .titleBanner {
+    margin-top: 15%;
+    font-size: 2.5rem !important;
+    margin-bottom: 8% !important;
+  }
+  .banner p {
+    line-height: 1.5rem !important;
+    font-size: 1rem !important;
+  }
+  .boxForm {
+    height: 220px !important;
+  }
+}
+@media only screen and (max-width: 1243px) {
+  .detailAll {
+    height: 50% !important;
+  }
+}
+@media only screen and (max-width: 1143px) {
+  .detailAll {
+    height: 50% !important;
+  }
+}
+@media only screen and (max-width: 1073px) {
+  .titleBanner {
+    margin-top: -10%;
+    font-size: 2rem !important;
+    margin-bottom: 8% !important;
+  }
+  .banner p {
+    line-height: 1.2rem !important;
+    font-size: 1rem !important;
+  }
+  .contenBanner {
+    top: 18% !important;
+    width: 40% !important;
+  }
+  .boxForm {
+    height: 200px !important;
+  }
+  .detailAll {
+    height: 50% !important;
+  }
+}
+@media only screen and (max-width: 969px) {
+  .contenBanner {
+    top: 10% !important;
+    width: 40% !important;
+  }
+  .banner p {
+    line-height: 1.2rem !important;
+    font-size: 0.8rem !important;
+  }
+  .titleBanner {
+    margin-top: 0;
+    font-size: 2rem !important;
+    margin-bottom: 8% !important;
+  }
+  .detailAll {
+    height: 50% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .titleBanner {
+    margin-top: 0;
+    font-size: 1.5rem !important;
+    margin-bottom: 8% !important;
+  }
+  .btnBanner {
+    font-size: 1.2rem !important;
+  }
+  .boxForm {
+    height: 180px !important;
+  }
+  .cardSearch img {
+    margin-left: 4% !important;
+  }
+  .detailAll {
+    height: 55% !important;
+    display: flex !important;
+    flex-direction: column;
+  }
+  .detailAll h2 {
+    border: none !important;
+  }
+  .flexDetail {
+    margin-top: 0 !important;
+    font-size: 0.8rem !important;
+    display: flex;
+    border-bottom: 2px solid white;
+  }
+  .flexDetail p:nth-child(4) {
+    display: none;
+  }
+  .flexDetail p {
+    font-size: 1rem !important;
+    margin-left: 15%;
+    margin-top: 3.5%;
+  }
+  .youTube {
+    margin: 0 !important;
+  }
+  .imgDetail {
+    margin: 0 !important;
+  }
+  .boxBtnVideo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+  }
+  .btn-detail {
+    height: 50%;
+  }
+  .errDetail {
+    margin: 0 !important;
+    margin-top: 4% !important;
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .titleBanner {
+    margin-top: 5% !important;
+    font-size: 1rem !important;
+    margin-bottom: 3% !important;
+  }
+  .contenBanner {
+    top: 10% !important;
+    width: 60% !important;
+  }
+  .btnBanner {
+    font-size: 1rem !important;
+  }
+  .banner p {
+    line-height: 1rem !important;
+    font-size: 0.7rem !important;
+  }
+  .cardSearch img {
+    margin-left: 20% !important;
+    margin-top: 5% !important;
+  }
+  .detailAll {
+    height: 55% !important;
+    display: flex !important;
+    flex-direction: column;
+  }
+  .flexDetail {
+    margin-top: 0 !important;
+    font-size: 0.8rem !important;
+  }
+  .flexDetail p {
+    display: none;
+  }
+  .youTube {
+    margin: 0 !important;
+  }
+  .imgDetail {
+    margin: 0 !important;
+  }
+  .oriHidden {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Search {
+    margin-right: 16% !important;
+  }
+  .banner p {
+    line-height: 0.8rem !important;
+    font-size: 0.7rem !important;
+  }
+  .contenBanner {
+    top: 5% !important;
+    width: 100% !important;
+  }
+  .detailAll {
+    height: 55% !important;
+    display: flex !important;
+    flex-direction: column;
+  }
+  .flexDetail {
+    margin-top: 0 !important;
+    font-size: 0.8rem !important;
+  }
+  .flexDetail p {
+    display: none;
+  }
+  .youTube {
+    margin: 0 !important;
+  }
+  .imgDetail {
+    margin: 0 !important;
+  }
+}
